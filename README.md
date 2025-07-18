@@ -7,6 +7,7 @@
 ## การติดตั้ง (Installation)
 
 1. ติดตั้ง [Bun](https://bun.com) (สามารถดูได้ที่ [Bun Installation](https://bun.com/docs/installation))
+2. เปิดไฟล์ "init.bat" แล้วรอจนกว่าโปรแกรมจะทำงานเสร็จสิ้น
 2. เปิดไฟล์ "run_public_build.bat" แล้วรอจนกว่าโปรแกรมจะทำงานเสร็จสิ้น
 3. เปิดไฟล์ "run_public_start.bat" และไฟล์ "start.bat" ตามลำดับ
 4. เว็บไซต์จะโฮสต์บนพอร์ต 3000 ซึ่งสามารถตั้งค่าได้ที่ไฟล์ ".env" ตรงช่องคำว่า "PORT"
