@@ -1,0 +1,16 @@
+{
+    "name": "รีเวิร์สสตริง (Reverse String)",
+    "type": [0, 1],
+    "tag": ["string"],
+    "difficultyElo": 50,
+    "solution_size": 20,
+    "description": "มีข้อความให้ โดยข้อความจะมีขนาดไม่เกิน 100 ตัวอักษร หน้าที่ของคุณคือการแสดงผลการย้อนกลับของข้อความนั้นๆ เช่น จาก 'HELLO' เป็น 'OLLEH'",
+    "example_testcases": [
+        { "input": "hello", "output": "olleh" },
+        { "input": "world", "output": "dlrow" }
+    ],
+    "testcases": [
+        { "input": "hello", "output": "olleh" },
+        { "input": "world", "output": "dlrow" }
+    ]
+}
