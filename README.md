@@ -22,6 +22,9 @@
 - [shadcn/ui](https://ui.shadcn.com/) - เป็นชุด UI Component สำหรับการทำ Frontend
 - [Tail Wind CSS](https://tailwindcss.com/) - ใช้ในการจัดการเรื่องการตกแต่งหน้าเว็บไซต์
 
+## แจ้งให้ทราบ (Notifications)
+- ตัวเว็บไซต์มี Error ในการ Logout อย่างไม่ทราบสาเหตุ (แต่ภายใน keycoder.college สามารถทำงานได้อย่างปกติ)
+
 ## ผู้มีส่วนร่วมในโครงการ (Contributor)
 
 1. นายนันทพัทธ์ แก้วจา (Nantapat Kaewja)
