@@ -25,6 +25,7 @@
 ## แจ้งให้ทราบ (Notifications)
 - ตัวเว็บไซต์มี Error ในการ Logout อย่างไม่ทราบสาเหตุ (แต่ภายใน [keycoder.college](https://keycoder.college) สามารถทำงานได้อย่างปกติ)
 - โค้ดที่อยู่ใน GitHub โจทย์และเนื้อหาคอร์สพื้นฐาน Python อาจยังไม่สมบูรณ์ (แนะนำให้เข้า [keycoder.college](https://keycoder.college))
+- ส่วนของ Frontend (ส่วนแสดงผล) ที่ต้องสื่อสารกับ Server ไม่ได้เชื่อมกับ localhost:PORT แต่เป็น keycoder.college
 
 ## ผู้มีส่วนร่วมในโครงการ (Contributor)
 
