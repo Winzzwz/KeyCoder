@@ -23,7 +23,8 @@
 - [Tail Wind CSS](https://tailwindcss.com/) - ใช้ในการจัดการเรื่องการตกแต่งหน้าเว็บไซต์
 
 ## แจ้งให้ทราบ (Notifications)
-- ตัวเว็บไซต์มี Error ในการ Logout อย่างไม่ทราบสาเหตุ (แต่ภายใน keycoder.college สามารถทำงานได้อย่างปกติ)
+- ตัวเว็บไซต์มี Error ในการ Logout อย่างไม่ทราบสาเหตุ (แต่ภายใน [keycoder.college](https://keycoder.college) สามารถทำงานได้อย่างปกติ)
+- โค้ดที่อยู่ใน GitHub โจทย์และเนื้อหาคอร์สพื้นฐาน Python อาจยังไม่สมบูรณ์ (แนะนำให้เข้า [keycoder.college](https://keycoder.college))
 
 ## ผู้มีส่วนร่วมในโครงการ (Contributor)
 
