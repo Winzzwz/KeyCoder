@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "vercel-build": "npm run build"
+  },
+  "dependencies": {
+    "@chneau/elysia-logger": "^1.0.10",
+    "@colyseus/bun-websockets": "^0.16.4",
+    "@colyseus/monitor": "^0.16.7",
+    "@colyseus/playground": "^0.16.4",
+    "@colyseus/tools": "^0.16.12",
+    "@elysiajs/cookie": "^0.8.0",
+    "@elysiajs/cors": "^1.3.3",
+    "@elysiajs/jwt": "^1.3.0",
+    "@elysiajs/static": "^1.3.0",
+    "@elysiajs/swagger": "^1.3.0",
+    "@prisma/client": "^6.7.0",
+    "@tqman/nice-logger": "^1.1.1",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "colyseus": "^0.16.4",
+    "colyseus.js": "^0.16.19",
+    "crypto": "^1.0.1",
+    "elysia": "latest",
+    "elysia-rate-limit": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "nanoid": "^5.1.5",
+    "superjson": "^2.2.2"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^6.7.0"
+  },
+  "module": "src/index.js"
+}

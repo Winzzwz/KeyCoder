@@ -1,0 +1,14 @@
+[
+    {"key": "intro", "label": "ยินดีต้อนรับสู่ Python!", "id": 1},
+    {"key": "datatypes", "label": "ประเภทของข้อมูล", "id": 2},
+    {"key": "syntax", "label": "ไวยากรณ์", "id": 3},
+    {"key": "variable", "label": "ตัวแปร", "id": 4},
+    {"key": "operators", "label": "เครื่องหมายการดำเนินการ", "id": 5},
+    {"key": "condition", "label": "เงื่อนไข", "id": 6},
+    {"key": "loop", "label": "ลูป", "id": 7},
+    {"key": "function", "label": "ฟังชั่น", "id": 8},
+    {"key": "string", "label": "สตริง", "id": 9},
+    {"key": "list", "label": "ลิสต์", "id": 10},
+    {"key": "dictionary", "label": "ดิกชันนารี", "id": 11},
+    {"key": "math", "label": "คณิตศาสตร์", "id": 12}
+]

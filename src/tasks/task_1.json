@@ -1,0 +1,16 @@
+{
+    "name": "Reverse String",
+    "type": [0, 1],
+    "tag": ["string"],
+    "difficultyElo": 50,
+    "solution_size": 20,
+    "description": "Given a string, return its reversal.",
+    "example_testcases": [
+        { "input": "hello", "output": "olleh" },
+        { "input": "world", "output": "dlrow" }
+    ],
+    "testcases": [
+        { "input": "hello", "output": "olleh" },
+        { "input": "world", "output": "dlrow" }
+    ]
+}

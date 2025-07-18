@@ -1,0 +1,38 @@
+generator client {
+    provider = "prisma-client-js"
+    output   = "../src/generated/prisma"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL")
+}
+
+model User {
+    id                  String   @id @default(auto()) @map("_id") @db.ObjectId
+    email               String   @unique
+    username            String   @unique
+    password            String
+    elo                 Int      @default(0)
+    win                 Int      @default(0)
+    loss                Int      @default(0)
+    skillLevel          Int      @default(0)
+    createDate          DateTime @default(now())
+
+    settings            Settings?
+    courseProgress      CourseProgress?
+}
+
+model Settings {
+    userId              String  @id @map("_id") @db.ObjectId
+    theme               Int     @default(1)
+
+    user                User    @relation(fields: [userId], references: [id])
+}
+
+model CourseProgress {
+    userId              String  @id @map("_id") @db.ObjectId
+    basics              Int     @default(1)
+
+    user                User    @relation(fields: [userId], references: [id])
+}
